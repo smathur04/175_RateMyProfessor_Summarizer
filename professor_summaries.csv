@@ -1,11 +1,11 @@
-professor_name,top_4_worthwhile_reviews,llm_prompt,professor_summary
+professor_name,top_4_worthwhile_reviews,llm_prompt,professor_summary,mean_review_sentiment,chunk_sentiment_score,summary_sentiment_score
 Duane  Griffin,"this is the worst teacher I\'ve ever had in my entire life. he was useless- DO NOT TAKE! he told us not to worry about our grades however he screwed us all in the end and gave us lower grades than everyone expected...AVOID AT ALL COSTS FOR YOUR OWN GOOD! 
 
- Duane is a little quirky and kind of out there but overall a great professor. I took this class as a sophomore and expected to get my butt kicked. He\'s really helpful though and wants you to do well. He doesn\'t really give many grades and tests were very general. Field trips are interesting, definitely a lot of work but it could\'ve been a lot worse 
+ Terrible professor. Expected students to know information for tests that he didn\'t even teach about it. Awful grading system. I will never take a class with this professor again and advise no one else to either. 
 
- Take advantage of extra credit opportunities and office hours. There is a lot of material, but the tests ask about broad trends and general connections, so just memorizing isn\'t that helpful. He is kind of a picky grader. Field trips are kind of random but fun, and he has a lot of jokes and interesting stories, so the class is laid back and fun 
+ He is a really nice guy! If you try hard in his class and stay on top of the assignments he asks of you then you will seriously do well. Try to get on his good side, it pays off. He is a really smart guy and is very willing to help you out if you need. GO TO OFFICE HOURS! It makes him take you seriously and you learn a lot from his genius! 
 
- He is a really nice guy! If you try hard in his class and stay on top of the assignments he asks of you then you will seriously do well. Try to get on his good side, it pays off. He is a really smart guy and is very willing to help you out if you need. GO TO OFFICE HOURS! It makes him take you seriously and you learn a lot from his genius!","You are summarizing student reviews for a professor.
+ Take advantage of extra credit opportunities and office hours. There is a lot of material, but the tests ask about broad trends and general connections, so just memorizing isn\'t that helpful. He is kind of a picky grader. Field trips are kind of random but fun, and he has a lot of jokes and interesting stories, so the class is laid back and fun","You are summarizing student reviews for a professor.
 
 Professor name:
 Duane  Griffin
@@ -13,17 +13,17 @@ Duane  Griffin
 Most worthwhile student reviews:
 this is the worst teacher I\'ve ever had in my entire life. he was useless- DO NOT TAKE! he told us not to worry about our grades however he screwed us all in the end and gave us lower grades than everyone expected...AVOID AT ALL COSTS FOR YOUR OWN GOOD! 
 
- Duane is a little quirky and kind of out there but overall a great professor. I took this class as a sophomore and expected to get my butt kicked. He\'s really helpful though and wants you to do well. He doesn\'t really give many grades and tests were very general. Field trips are interesting, definitely a lot of work but it could\'ve been a lot worse 
+ Terrible professor. Expected students to know information for tests that he didn\'t even teach about it. Awful grading system. I will never take a class with this professor again and advise no one else to either. 
 
- Take advantage of extra credit opportunities and office hours. There is a lot of material, but the tests ask about broad trends and general connections, so just memorizing isn\'t that helpful. He is kind of a picky grader. Field trips are kind of random but fun, and he has a lot of jokes and interesting stories, so the class is laid back and fun 
+ He is a really nice guy! If you try hard in his class and stay on top of the assignments he asks of you then you will seriously do well. Try to get on his good side, it pays off. He is a really smart guy and is very willing to help you out if you need. GO TO OFFICE HOURS! It makes him take you seriously and you learn a lot from his genius! 
 
- He is a really nice guy! If you try hard in his class and stay on top of the assignments he asks of you then you will seriously do well. Try to get on his good side, it pays off. He is a really smart guy and is very willing to help you out if you need. GO TO OFFICE HOURS! It makes him take you seriously and you learn a lot from his genius!
+ Take advantage of extra credit opportunities and office hours. There is a lot of material, but the tests ask about broad trends and general connections, so just memorizing isn\'t that helpful. He is kind of a picky grader. Field trips are kind of random but fun, and he has a lot of jokes and interesting stories, so the class is laid back and fun
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -40,32 +40,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Duane Griffin is described as a quirky but generally nice and smart instructor who is willing to help students, especially if they attend office hours and engage with him. His class involves a significant workload, including field trips that some find interesting but somewhat random. Exams focus on broad trends and general connections rather than detailed memorization, though he is noted to be a picky grader. Some students appreciate his laid-back style, humor, and willingness to support those who stay on top of assignments, while others strongly caution against taking his class due to unexpected low grades and dissatisfaction with his grading fairness. Overall, success in his course appears to depend on active effort, taking advantage of extra credit, and maintaining good communication with him."
-Susan  Larkin,"Dr. Larkin is simply the best PED Prof. in PED at John Jay! I have taken 2 classes with her. She is excellent! Take PED 110 ONLINE with her it is an easy A, forget what the other people say. Se gives good feedback. PE Minor students should take her! Forget these other teachers, (they are too serious) she is the best one to take! Easy A 
+Return only the final summary paragraph.","Professor Duane Griffin is described as a smart and willing instructor who can be helpful if students actively engage, attend office hours, and take advantage of extra credit opportunities. His class covers a lot of material, with tests focusing on broad trends rather than memorization, but some students find his grading to be picky and unfair, with unexpected lower grades despite reassurances. While the class atmosphere is generally laid back and occasionally fun, with jokes and interesting stories, others criticize him for poor organization and expecting knowledge on material not taught. Overall, success in his course seems to depend heavily on staying on top of assignments and building a good rapport with him, though some students strongly advise avoiding his class due to grading and teaching concerns.",-0.07899450913832834,-0.093089037872225,0.35869917308070876
+Susan  Larkin,"LOVED HER! Larkin is an amazing professor. shes very enthusiastic and believes in her students. she will not let you give up, and will push you until you succeed Be prepared to give 110%, she doesnt like slacking, but she will give you a break if you need it. Class is fun, and you make great friends. Highly recommend her! you wont regret it 
 
  She is awesome. Take her for online health class. Easy A (if you do the work she requires (which is not tough at all). She is always ready to help also, she is very clear and fair. 
 
- LOVED HER! Larkin is an amazing professor. shes very enthusiastic and believes in her students. she will not let you give up, and will push you until you succeed Be prepared to give 110%, she doesnt like slacking, but she will give you a break if you need it. Class is fun, and you make great friends. Highly recommend her! you wont regret it 
+ Dr. Larkin is simply the best PED Prof. in PED at John Jay! I have taken 2 classes with her. She is excellent! Take PED 110 ONLINE with her it is an easy A, forget what the other people say. Se gives good feedback. PE Minor students should take her! Forget these other teachers, (they are too serious) she is the best one to take! Easy A 
 
- Larkin is soo nice! If you\'re a beginner, you will know how to swim, dive, and tread water by the time she\'s done with you :) Attendance is MANDATORY!!! But it\'s worth it, classes are fun, the water\'s cold, and you make great friends!","You are summarizing student reviews for a professor.
+ I do not like professor Larkin. She is not helpful at all. If a student ask for help, ignores. she is so rude and strict. she does not care about students. I have never seen these type of professor.","You are summarizing student reviews for a professor.
 
 Professor name:
 Susan  Larkin
 
 Most worthwhile student reviews:
-Dr. Larkin is simply the best PED Prof. in PED at John Jay! I have taken 2 classes with her. She is excellent! Take PED 110 ONLINE with her it is an easy A, forget what the other people say. Se gives good feedback. PE Minor students should take her! Forget these other teachers, (they are too serious) she is the best one to take! Easy A 
+LOVED HER! Larkin is an amazing professor. shes very enthusiastic and believes in her students. she will not let you give up, and will push you until you succeed Be prepared to give 110%, she doesnt like slacking, but she will give you a break if you need it. Class is fun, and you make great friends. Highly recommend her! you wont regret it 
 
  She is awesome. Take her for online health class. Easy A (if you do the work she requires (which is not tough at all). She is always ready to help also, she is very clear and fair. 
 
- LOVED HER! Larkin is an amazing professor. shes very enthusiastic and believes in her students. she will not let you give up, and will push you until you succeed Be prepared to give 110%, she doesnt like slacking, but she will give you a break if you need it. Class is fun, and you make great friends. Highly recommend her! you wont regret it 
+ Dr. Larkin is simply the best PED Prof. in PED at John Jay! I have taken 2 classes with her. She is excellent! Take PED 110 ONLINE with her it is an easy A, forget what the other people say. Se gives good feedback. PE Minor students should take her! Forget these other teachers, (they are too serious) she is the best one to take! Easy A 
 
- Larkin is soo nice! If you\'re a beginner, you will know how to swim, dive, and tread water by the time she\'s done with you :) Attendance is MANDATORY!!! But it\'s worth it, classes are fun, the water\'s cold, and you make great friends!
+ I do not like professor Larkin. She is not helpful at all. If a student ask for help, ignores. she is so rude and strict. she does not care about students. I have never seen these type of professor.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -82,32 +82,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Susan Larkin is highly regarded for her clear, fair, and enthusiastic teaching style, particularly in physical education and online health classes. Students appreciate her helpful feedback and willingness to support those who put in consistent effort, describing her courses as fun and engaging with a manageable workload that can lead to an easy A if requirements are met. Attendance is mandatory, especially in practical classes like swimming, but students find the experience rewarding and enjoyable. She encourages students to give their best and does not tolerate slacking, though she is understanding when breaks are needed. Overall, she is seen as an excellent and approachable professor who fosters a positive and motivating classroom environment."
-Ken  Sumner,"He is by far the worst teacher Ive ever had in my life. He doesnt care if you fail or do well. He was supposed to help me with doing a program with my internship and rarely answered any of my emails when I asked him what to do. I messaged him at least four times a month for the entire summer and he answered 3 times. 
+Return only the final summary paragraph.","Professor Susan Larkin is described by many students as an enthusiastic and fair instructor who pushes students to give their best while also being willing to offer breaks when needed. She is praised for making classes fun and fostering a positive classroom environment where students can form friendships. Her online health and PED classes are considered easy A opportunities if students complete the required work, and she provides clear feedback. However, some students find her strict and unhelpful, reporting that she can be rude and unresponsive to requests for assistance. Overall, she is viewed as a dedicated professor who cares about student success, though her approach may not suit everyone.",0.5293065650121289,0.943535152562391,0.7980752062593162
+Ken  Sumner,"Dr. Sumner is the most worthless professor I\'ve ever had. He never replies to emails, just gossips during class and doesn\'t help when requested. I honestly don\'t know how he\'s been teaching as long as he has. 
 
  He\'s such a horrible, lackadaisical professor! Avoid at all costs; he\'ll ruin your GPA. I took him for grad level statistics. He didn\'t teach anything at all. All he did was talk about his children and personal life. He even admitted that he didn\'t know how to do some of the material he went over in class. 
 
- Dr. Sumner is the most worthless professor I\'ve ever had. He never replies to emails, just gossips during class and doesn\'t help when requested. I honestly don\'t know how he\'s been teaching as long as he has. 
+ Dr. Sumner is a great teacher. I have an aversion and mental disability to math;however, intro to statistic was so easy with him. He jokes to make you feel more comfortable and he\'s always there if you need a help. Definitely recommended. Gotta love this guy!!! 
 
- Dr. Sumner is a great teacher. I have an aversion and mental disability to math;however, intro to statistic was so easy with him. He jokes to make you feel more comfortable and he\'s always there if you need a help. Definitely recommended. Gotta love this guy!!!","You are summarizing student reviews for a professor.
+ The worst experience I have ever encountered with a professor. He NEVER answered my emails, or questions. He waited until the last possible minute to upload or grade anything, meanwhile his folders were stocked with files that dated back to 2012. Most unorganized class ever, and so unhelpful.","You are summarizing student reviews for a professor.
 
 Professor name:
 Ken  Sumner
 
 Most worthwhile student reviews:
-He is by far the worst teacher Ive ever had in my life. He doesnt care if you fail or do well. He was supposed to help me with doing a program with my internship and rarely answered any of my emails when I asked him what to do. I messaged him at least four times a month for the entire summer and he answered 3 times. 
+Dr. Sumner is the most worthless professor I\'ve ever had. He never replies to emails, just gossips during class and doesn\'t help when requested. I honestly don\'t know how he\'s been teaching as long as he has. 
 
  He\'s such a horrible, lackadaisical professor! Avoid at all costs; he\'ll ruin your GPA. I took him for grad level statistics. He didn\'t teach anything at all. All he did was talk about his children and personal life. He even admitted that he didn\'t know how to do some of the material he went over in class. 
 
- Dr. Sumner is the most worthless professor I\'ve ever had. He never replies to emails, just gossips during class and doesn\'t help when requested. I honestly don\'t know how he\'s been teaching as long as he has. 
+ Dr. Sumner is a great teacher. I have an aversion and mental disability to math;however, intro to statistic was so easy with him. He jokes to make you feel more comfortable and he\'s always there if you need a help. Definitely recommended. Gotta love this guy!!! 
 
- Dr. Sumner is a great teacher. I have an aversion and mental disability to math;however, intro to statistic was so easy with him. He jokes to make you feel more comfortable and he\'s always there if you need a help. Definitely recommended. Gotta love this guy!!!
+ The worst experience I have ever encountered with a professor. He NEVER answered my emails, or questions. He waited until the last possible minute to upload or grade anything, meanwhile his folders were stocked with files that dated back to 2012. Most unorganized class ever, and so unhelpful.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -124,32 +124,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Students have reported widely differing experiences with Dr. Ken Sumner. Several found him unhelpful and unresponsive, noting that he rarely answered emails, did not provide adequate instruction, and often focused on personal topics rather than teaching, which negatively impacted their understanding and grades. Conversely, some students appreciated his approachable style, humor, and willingness to assist, especially those who struggled with math, describing his class as easy and supportive. Overall, the professor’s communication and teaching effectiveness appear inconsistent, with some students strongly advising avoidance while others recommend him for his approachable demeanor."
-Andrew  Delamater,"I highly recommend him!His lectures were crystal clear and based on the book. He always gave examples to support the theories he discussed and his exams were fair; you just have to put in the effort and study. Take him! I really enjoyed his class! 
+Return only the final summary paragraph.","Students have reported highly mixed experiences with Dr. Ken Sumner. Some find him a great and funny teacher who makes statistics feel easy and creates a comfortable classroom environment, being willing to help when needed. However, several students describe his classes as unorganized and unhelpful, noting that he rarely responds to emails or questions and delays grading and posting materials until the last minute. There are also concerns about his focus during lectures, with reports of him discussing personal topics instead of teaching, and even admitting to not knowing some of the material. Overall, while some appreciate his approachable style, others strongly advise avoiding his courses due to poor organization and lack of effective instruction.",-0.39208383145997733,-0.8083802623636475,0.24383504233768116
+Andrew  Delamater,"Professor Delamater is great! He is very tough but he makes you work hard and you learn a lot. This is not an easy A class, but if you think you are smart enough to read a book, you will have no problems. 
 
- Professor Delamater is great! He is very tough but he makes you work hard and you learn a lot. This is not an easy A class, but if you think you are smart enough to read a book, you will have no problems. 
+ Lectures are boring and information is unclear. He is very unprofessional and treats you like an idiot if you are not understanding the info. He plays favorites and ignores the students who have difficulty in class. 
 
- Amazing professor! Very interesting material. I learned a lot, I highly recommend his graduate class 
+ If you want to waste money, If you really don\'t care about your GPA, If you want to struggle, If you are interested in 3 hours of boring lectures than this class is for you!! ENOUGH SAID!!! 
 
- Terrible professor. Insults students in class, makes students look stupid if they dont know an answer. would not recomend!","You are summarizing student reviews for a professor.
+ I highly recommend him!His lectures were crystal clear and based on the book. He always gave examples to support the theories he discussed and his exams were fair; you just have to put in the effort and study. Take him! I really enjoyed his class!","You are summarizing student reviews for a professor.
 
 Professor name:
 Andrew  Delamater
 
 Most worthwhile student reviews:
-I highly recommend him!His lectures were crystal clear and based on the book. He always gave examples to support the theories he discussed and his exams were fair; you just have to put in the effort and study. Take him! I really enjoyed his class! 
+Professor Delamater is great! He is very tough but he makes you work hard and you learn a lot. This is not an easy A class, but if you think you are smart enough to read a book, you will have no problems. 
 
- Professor Delamater is great! He is very tough but he makes you work hard and you learn a lot. This is not an easy A class, but if you think you are smart enough to read a book, you will have no problems. 
+ Lectures are boring and information is unclear. He is very unprofessional and treats you like an idiot if you are not understanding the info. He plays favorites and ignores the students who have difficulty in class. 
 
- Amazing professor! Very interesting material. I learned a lot, I highly recommend his graduate class 
+ If you want to waste money, If you really don\'t care about your GPA, If you want to struggle, If you are interested in 3 hours of boring lectures than this class is for you!! ENOUGH SAID!!! 
 
- Terrible professor. Insults students in class, makes students look stupid if they dont know an answer. would not recomend!
+ I highly recommend him!His lectures were crystal clear and based on the book. He always gave examples to support the theories he discussed and his exams were fair; you just have to put in the effort and study. Take him! I really enjoyed his class!
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -166,32 +166,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Andrew Delamater is known for delivering crystal clear lectures that closely follow the textbook, often using examples to support the theories discussed. His exams are considered fair but challenging, requiring students to put in consistent effort and study. Many students find his class interesting and valuable, especially at the graduate level, and appreciate the learning experience despite the workload. However, some students report negative classroom interactions, describing him as rude and insulting when students do not know answers, which can create a difficult environment. Overall, he is a tough but effective instructor who demands hard work and rewards it with a solid understanding of the material."
-Peter  Jurs,"Can be dry at times, but a nice guy overall. ""Wizard of Whitmore."" Can be funny. Great attitude. Knows what he\'s doing and teaches very well. 
+Return only the final summary paragraph.","Professor Delamater is known for being a tough instructor who requires students to put in significant effort, with exams that are considered fair and based on the textbook material. Some students find his lectures clear and well-supported by examples, which helps them learn effectively. However, others describe his lectures as boring and unclear, and report that he can be unprofessional and dismissive toward students who struggle, sometimes playing favorites. This class is not an easy A and may be challenging for those who are not prepared to engage deeply with the material. Overall, students should expect a demanding course with a mixed experience regarding lecture quality and instructor approachability.",-0.0010082735722250213,0.20112304287266647,0.04664339171524179
+Peter  Jurs,"Terrible class, absolutely boring and poor lectures. Taught myself chemistry from the book because I couldn\'t take sitting through the lecture. If you have to take the first year chem lab, bless your soul. 
 
- Good teacher, easy to follor. lots of demonstartions in class to keep your attention. 
+ He was awesome 
 
- Terrible class, absolutely boring and poor lectures. Taught myself chemistry from the book because I couldn\'t take sitting through the lecture. If you have to take the first year chem lab, bless your soul. 
+ Can be dry at times, but a nice guy overall. ""Wizard of Whitmore."" Can be funny. Great attitude. Knows what he\'s doing and teaches very well. 
 
- He was awesome","You are summarizing student reviews for a professor.
+ Good teacher, easy to follor. lots of demonstartions in class to keep your attention.","You are summarizing student reviews for a professor.
 
 Professor name:
 Peter  Jurs
 
 Most worthwhile student reviews:
-Can be dry at times, but a nice guy overall. ""Wizard of Whitmore."" Can be funny. Great attitude. Knows what he\'s doing and teaches very well. 
+Terrible class, absolutely boring and poor lectures. Taught myself chemistry from the book because I couldn\'t take sitting through the lecture. If you have to take the first year chem lab, bless your soul. 
 
- Good teacher, easy to follor. lots of demonstartions in class to keep your attention. 
+ He was awesome 
 
- Terrible class, absolutely boring and poor lectures. Taught myself chemistry from the book because I couldn\'t take sitting through the lecture. If you have to take the first year chem lab, bless your soul. 
+ Can be dry at times, but a nice guy overall. ""Wizard of Whitmore."" Can be funny. Great attitude. Knows what he\'s doing and teaches very well. 
 
- He was awesome
+ Good teacher, easy to follor. lots of demonstartions in class to keep your attention.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -208,14 +208,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Peter Jurs is generally regarded as a knowledgeable and fair instructor who teaches well and maintains a good attitude, often incorporating demonstrations to keep students engaged. Some students find his lectures dry or boring, with one reporting difficulty sitting through them and preferring to self-study from the textbook. Despite this, others describe him as funny, approachable, and an overall great teacher. The course experience may vary, especially for those taking the first-year chemistry lab, which one student found particularly challenging. Overall, students should expect clear instruction but be prepared for a lecture style that may not appeal to everyone."
+Return only the final summary paragraph.","Professor Peter Jurs receives mixed reviews from students. Some find his lectures boring and poorly delivered, to the point that they preferred teaching themselves from the textbook, especially in the first-year chemistry lab. However, others describe him as a great teacher who is easy to follow, knowledgeable, and capable of making the class engaging through demonstrations and occasional humor. He is generally seen as having a good attitude and being fair in his teaching approach. Overall, students should be prepared for a potentially dry lecture style but can expect a professor who cares and knows his material well.",0.4466659776318901,0.5464562866766471,0.7843678432175845
 Thomas  Cooke,"Doesn\'t really care about the course. Asks terrible questions on the tests that are completely ambiguous- asks T/F questions on opinionated topics. Says he\'ll curve final grades, but didn\'t for our class. Just a terrible course overall, don\'t take it if you don\'t have to. 
 
  One of the best classes I have taken at UConn. Enjoyed the material and his teaching style. Only complaint is time granted on the tests. Overall great class. 
 
- I enjoyed this class. There\'s 5 modules and you get 3 weeks for each one. There\'s a few assignments, a blog post, and a quiz each module. Totally doable amount of work. Only thing is, for the blog you need to work with your group and a lot of people wait until the last minute. Cooke was very helpful and informative either way. Highly recommended! 
+ Great Professor, very funny and interesting. The class grade is based on only 3 exams. He curves everything. Going to class and taking notes is very helpful. 
 
- I had Cooke for a once a week class for population geography. I thought that he was entertaining and kept the class relatively light considering some of the material. Only 2 exams and a paper for grades. I enjoyed the class and so long as you attended and took a few notes, you will be prepared for the exams.","You are summarizing student reviews for a professor.
+ I enjoyed this class. There\'s 5 modules and you get 3 weeks for each one. There\'s a few assignments, a blog post, and a quiz each module. Totally doable amount of work. Only thing is, for the blog you need to work with your group and a lot of people wait until the last minute. Cooke was very helpful and informative either way. Highly recommended!","You are summarizing student reviews for a professor.
 
 Professor name:
 Thomas  Cooke
@@ -225,15 +225,15 @@ Doesn\'t really care about the course. Asks terrible questions on the tests that
 
  One of the best classes I have taken at UConn. Enjoyed the material and his teaching style. Only complaint is time granted on the tests. Overall great class. 
 
- I enjoyed this class. There\'s 5 modules and you get 3 weeks for each one. There\'s a few assignments, a blog post, and a quiz each module. Totally doable amount of work. Only thing is, for the blog you need to work with your group and a lot of people wait until the last minute. Cooke was very helpful and informative either way. Highly recommended! 
+ Great Professor, very funny and interesting. The class grade is based on only 3 exams. He curves everything. Going to class and taking notes is very helpful. 
 
- I had Cooke for a once a week class for population geography. I thought that he was entertaining and kept the class relatively light considering some of the material. Only 2 exams and a paper for grades. I enjoyed the class and so long as you attended and took a few notes, you will be prepared for the exams.
+ I enjoyed this class. There\'s 5 modules and you get 3 weeks for each one. There\'s a few assignments, a blog post, and a quiz each module. Totally doable amount of work. Only thing is, for the blog you need to work with your group and a lot of people wait until the last minute. Cooke was very helpful and informative either way. Highly recommended!
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -250,14 +250,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Thomas Cooke’s classes are generally well-organized with manageable workloads, including modules with assignments, quizzes, and group blog posts. Many students found his teaching style engaging and appreciated his helpfulness and clear communication. However, some students criticized the exams for containing ambiguous or opinion-based true/false questions and expressed frustration over grading, particularly regarding an unfulfilled promise to curve final grades. Attendance and note-taking are important for exam preparation, and while the course material can be interesting, experiences vary widely, with some students finding the course enjoyable and others describing it as confusing or poorly handled. Overall, the class can be rewarding if you stay on top of the work, but be aware of potential issues with exam clarity and grading fairness."
+Return only the final summary paragraph.","Professor Thomas Cooke receives mixed reviews from students. Some find his classes interesting, funny, and well-organized, appreciating the manageable workload with clear modules, assignments, and quizzes, as well as his helpfulness and informative approach. However, others criticize the course for ambiguous and opinion-based test questions, particularly true/false items, and express frustration that promised grade curves were not applied consistently. The class grade is primarily based on three exams, making attendance and note-taking important. Overall, students should be prepared for a course that can be enjoyable but may also present challenges with grading fairness and test clarity.",0.3874291403333425,0.7014623302776262,0.5459938112075831
 Irv  Englander,"this class is the worst IT class you can ever take. do not take this class unless you want to be a computer geek 
+
+ These is without a doubt one of the worst classes i have. he tells us to read the book for the quizzes then never puts that info on the quizzes. Grades projects and what not easily, but its hard to get good test and quiz grades...good luck with this guy 
 
  Went to MIT and knows his stuff. He\'s a goofy little guy that you shouldn\'t take too seriously. A great and fun prof if you just get to know him. Definately go to office hours and he\'ll help you out, but you may get stuck watching youtube videos with him. Class is hard, but really just put a full day\'s worth of study in b4 the exam and youll b fine 
 
- Currently taking this class. Englander is an excellent professor. The material is hard but if you pay attention its really not that bad. Tests are challenging but you can bring a page of notes and he is generous with points. I definitely recommend taking a class with Irv. He\'s worked with computers since they were invented and he knows his stuff. 
-
- No labs and no assignments, which makes learning linux challenging. Keeping good notes is imperative as he imparts all of his knowledge to you via lecture. This is an advanced class and you are on your own for developing hands-on practice strategies and methods. I did learn a lot though.","You are summarizing student reviews for a professor.
+ Currently taking this class. Englander is an excellent professor. The material is hard but if you pay attention its really not that bad. Tests are challenging but you can bring a page of notes and he is generous with points. I definitely recommend taking a class with Irv. He\'s worked with computers since they were invented and he knows his stuff.","You are summarizing student reviews for a professor.
 
 Professor name:
 Irv  Englander
@@ -265,17 +265,17 @@ Irv  Englander
 Most worthwhile student reviews:
 this class is the worst IT class you can ever take. do not take this class unless you want to be a computer geek 
 
+ These is without a doubt one of the worst classes i have. he tells us to read the book for the quizzes then never puts that info on the quizzes. Grades projects and what not easily, but its hard to get good test and quiz grades...good luck with this guy 
+
  Went to MIT and knows his stuff. He\'s a goofy little guy that you shouldn\'t take too seriously. A great and fun prof if you just get to know him. Definately go to office hours and he\'ll help you out, but you may get stuck watching youtube videos with him. Class is hard, but really just put a full day\'s worth of study in b4 the exam and youll b fine 
 
- Currently taking this class. Englander is an excellent professor. The material is hard but if you pay attention its really not that bad. Tests are challenging but you can bring a page of notes and he is generous with points. I definitely recommend taking a class with Irv. He\'s worked with computers since they were invented and he knows his stuff. 
-
- No labs and no assignments, which makes learning linux challenging. Keeping good notes is imperative as he imparts all of his knowledge to you via lecture. This is an advanced class and you are on your own for developing hands-on practice strategies and methods. I did learn a lot though.
+ Currently taking this class. Englander is an excellent professor. The material is hard but if you pay attention its really not that bad. Tests are challenging but you can bring a page of notes and he is generous with points. I definitely recommend taking a class with Irv. He\'s worked with computers since they were invented and he knows his stuff.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -292,14 +292,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Irv Englander is an experienced and knowledgeable instructor, particularly in advanced IT topics, with a background from MIT and extensive computer expertise. His classes are challenging, with difficult material and exams, but he is considered fair in grading, allowing a page of notes during tests and being generous with points. The course relies heavily on lectures without labs or assignments, so students must take thorough notes and develop their own hands-on practice strategies. While some find his teaching style fun and helpful, including office hours support, others feel the class can be confusing and demanding, making it less suitable for those not fully committed. Overall, students who engage actively and prepare well tend to find the class worthwhile, though it may not be ideal for everyone."
+Return only the final summary paragraph.","Professor Irv Englander is knowledgeable and experienced, having worked with computers since their early days, and is described as a fun and approachable instructor if students engage with him, especially during office hours. The class material is challenging, and exams are hard, but students can bring a page of notes and may earn generous points, making it manageable with sufficient study. However, some students find the quizzes confusing and feel the quiz content does not align well with the assigned readings, leading to difficulty in achieving good quiz and test grades. While projects are graded fairly easily, the overall course can be demanding and may not suit everyone’s interests. Students who invest time and attend office hours tend to have a better experience, though the class is not recommended for those who do not want a rigorous IT course.",-0.02887992201167161,0.34458397721597533,0.333586782769435
 William  Stoever,"Finally a professor who made me feel like I was in college! I loved Stoever and the class. He\'s incredibly intelligent and has a a pretty funny sense of humor that you have to kind of catch. Take really good notes, study hard and watch your grammar on the exams and you\'ll do great. Highly recommende 
 
- Dr. Stoever is the best professor I\'ve ever had at Western. He is brilliant, interesting, and truly passionate about the subject. I recommend him to everyone. He is, however, very, very tough. Don\'t take this class if you aren\'t prepared to read and listen. LOTS. But it\'s totally worth it. 
+ This man is a genius. He was by far the best professor I had at Western. His lectures were insightful, meticulous, and often times hilarious. Best of all, he tactfully and efficiently poke fun of idiots (i.e. his grammar lectures after an essay test!). 
 
- One of my favorite profs. Has a very dry, sophisticated sense of humor, an awesome lecturer. Each hour is well planned, and information efficiently delivered. He does make some funny grammar comments when handing tests back:anything else. ""The Brahmin priest offers a sacrifice on the ALTAR. The vet ALTERS the puppy dog."" It\'s all in good fun. 
+ This was the most boring class I have ever taken at Western. I got the worst grade in this class I have ever gotten in college. He has an interesting sense of humor, but I think he is rude, and it is very impossible to follow his lectures without falling asleep because is voice is monotone. I couldn\'t go to class without falling asleep.. STAY AWAY! 
 
- This man is a genius. He was by far the best professor I had at Western. His lectures were insightful, meticulous, and often times hilarious. Best of all, he tactfully and efficiently poke fun of idiots (i.e. his grammar lectures after an essay test!).","You are summarizing student reviews for a professor.
+ Dr. Stoever is the best professor I\'ve ever had at Western. He is brilliant, interesting, and truly passionate about the subject. I recommend him to everyone. He is, however, very, very tough. Don\'t take this class if you aren\'t prepared to read and listen. LOTS. But it\'s totally worth it.","You are summarizing student reviews for a professor.
 
 Professor name:
 William  Stoever
@@ -307,17 +307,17 @@ William  Stoever
 Most worthwhile student reviews:
 Finally a professor who made me feel like I was in college! I loved Stoever and the class. He\'s incredibly intelligent and has a a pretty funny sense of humor that you have to kind of catch. Take really good notes, study hard and watch your grammar on the exams and you\'ll do great. Highly recommende 
 
- Dr. Stoever is the best professor I\'ve ever had at Western. He is brilliant, interesting, and truly passionate about the subject. I recommend him to everyone. He is, however, very, very tough. Don\'t take this class if you aren\'t prepared to read and listen. LOTS. But it\'s totally worth it. 
+ This man is a genius. He was by far the best professor I had at Western. His lectures were insightful, meticulous, and often times hilarious. Best of all, he tactfully and efficiently poke fun of idiots (i.e. his grammar lectures after an essay test!). 
 
- One of my favorite profs. Has a very dry, sophisticated sense of humor, an awesome lecturer. Each hour is well planned, and information efficiently delivered. He does make some funny grammar comments when handing tests back:anything else. ""The Brahmin priest offers a sacrifice on the ALTAR. The vet ALTERS the puppy dog."" It\'s all in good fun. 
+ This was the most boring class I have ever taken at Western. I got the worst grade in this class I have ever gotten in college. He has an interesting sense of humor, but I think he is rude, and it is very impossible to follow his lectures without falling asleep because is voice is monotone. I couldn\'t go to class without falling asleep.. STAY AWAY! 
 
- This man is a genius. He was by far the best professor I had at Western. His lectures were insightful, meticulous, and often times hilarious. Best of all, he tactfully and efficiently poke fun of idiots (i.e. his grammar lectures after an essay test!).
+ Dr. Stoever is the best professor I\'ve ever had at Western. He is brilliant, interesting, and truly passionate about the subject. I recommend him to everyone. He is, however, very, very tough. Don\'t take this class if you aren\'t prepared to read and listen. LOTS. But it\'s totally worth it.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -334,14 +334,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor William Stoever is highly regarded for his intelligence, passion, and well-organized lectures that efficiently deliver insightful and often humorous content. Students appreciate his dry, sophisticated sense of humor, especially his playful grammar comments during exams, which add a unique and engaging element to the class. He is considered a tough professor who requires significant reading and attentive listening, so students should be prepared to study hard and take thorough notes. While challenging, his classes are described as rewarding and worthwhile, with fair grading when students meet the expectations. Overall, Stoever offers a rigorous but enjoyable college experience for those ready to engage deeply with the material."
+Return only the final summary paragraph.","Professor William Stoever is regarded by many students as one of the best and most brilliant professors at Western, known for his insightful, meticulous, and sometimes humorous lectures. He is passionate about the subject and challenges students with a heavy reading and listening workload, making the class tough but rewarding for those prepared to engage fully. Students are advised to take careful notes, study hard, and pay close attention to grammar on exams to succeed. However, some students find his lectures monotonous and difficult to follow, describing his voice as sleep-inducing and his demeanor as occasionally rude. Overall, while his class can be demanding and not suited for everyone, many recommend him highly for those seeking a rigorous and intellectually stimulating college experience.",0.4739022136431067,0.863686383379699,0.434104862705458
 Michael  Kwag,"Kwag is a very knowledgable professor. His lectures are always interesting and if you are willing to work and participate in the class you can learn a lot and do very well. He genuinely wants students to succeed, although he may be strict at times. He is always available for help. 
 
  watch out.. not helpful, rude, and teaches at lightning speed. dont even bother going to him for clarification on anything. arbitrarily grades tests. will take 5 points off for one small error on one persons paper, and 5 points off someone elses when they got the entire thing wrong. Unfair, hard to understand, and just overall terrible!!! 
 
  KWAG is amazing, one of the best classes. Go to class and pay attention and you will definitely easily get an A. Tells literally everything that\'s going to be on the midterm and finals 
 
- Kwag was a nightmare! You could not understand him and he is not interested in helping the students. The worst that SHA has to offer. It is a shame the dean uses him as a showcase professor.","You are summarizing student reviews for a professor.
+ BEST professor in the world. I have been incredibly fortunate to have learned accounting from him. He is so intelligent. Go to him if you have questions about the material. Show that you care to work hard and succeed... do those things and you will gain his respect.. which is critical.","You are summarizing student reviews for a professor.
 
 Professor name:
 Michael  Kwag
@@ -353,13 +353,13 @@ Kwag is a very knowledgable professor. His lectures are always interesting and i
 
  KWAG is amazing, one of the best classes. Go to class and pay attention and you will definitely easily get an A. Tells literally everything that\'s going to be on the midterm and finals 
 
- Kwag was a nightmare! You could not understand him and he is not interested in helping the students. The worst that SHA has to offer. It is a shame the dean uses him as a showcase professor.
+ BEST professor in the world. I have been incredibly fortunate to have learned accounting from him. He is so intelligent. Go to him if you have questions about the material. Show that you care to work hard and succeed... do those things and you will gain his respect.. which is critical.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -376,32 +376,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Michael Kwag is knowledgeable and delivers interesting lectures, often providing clear guidance on exam content, which can help students earn high grades if they attend and participate. He is described as genuinely wanting students to succeed and is generally available for help, though some find his teaching pace very fast and difficult to follow. There are mixed opinions about his grading fairness, with some students reporting arbitrary point deductions and inconsistency. While some appreciate his structured approach and find the class manageable, others describe the experience as confusing, unhelpful, and frustrating due to unclear explanations and a lack of support. Overall, students should be prepared for a challenging class that rewards active engagement but may require extra effort to navigate."
-Geri  Olson,"She\'s an interesting professor. Really nice, maybe a little strange at times, but super down to earth. I like the type of work that we do. It\'s an interesting class, a lot of work with personal life stuff, but you don\'t necessarily need to share. Lots of creative writing stuff and you keep a dream journal. A few small projects too 
-
- AWFUL! all you will do is collage and talk about feelings with people you dont know. goodness. i will not ever take a class from her again. shes very unclear about assignments and will never give you a straight answer. STAY AWAY! 
+Return only the final summary paragraph.","Professor Michael Kwag is a knowledgeable and intelligent instructor who delivers interesting lectures and provides clear guidance on exam content, making it possible to earn a high grade with consistent attendance and effort. He is described as caring and willing to help students who show dedication, and many find him to be an excellent and fair teacher. However, some students report that his teaching pace can be very fast and difficult to follow, and they find his grading inconsistent and sometimes unfair, with concerns about arbitrary point deductions. While he is generally available for assistance, a few students feel he can be rude or unhelpful when approached for clarification. Overall, success in his class requires active participation, hard work, and demonstrating commitment to the material.",0.3925470377833372,0.6445488168509437,0.5032085616170825
+Geri  Olson,"AWFUL! all you will do is collage and talk about feelings with people you dont know. goodness. i will not ever take a class from her again. shes very unclear about assignments and will never give you a straight answer. STAY AWAY! 
 
  I took her in the summer and i loved this class! she is such a great teacher. i had this class for 4 hours and she made it fly bye. she has a way of breaking up the class that makes it bearable. 
 
- I loved her energy! Personally, I loved using creativity in journaling. She was approachable and great!","You are summarizing student reviews for a professor.
+ She\'s an interesting professor. Really nice, maybe a little strange at times, but super down to earth. I like the type of work that we do. It\'s an interesting class, a lot of work with personal life stuff, but you don\'t necessarily need to share. Lots of creative writing stuff and you keep a dream journal. A few small projects too 
+
+ I will never take her again. In addition to the previous commenter\'s accurate complaints, she picks favorites, and if she doesn\'t like you - good luck!","You are summarizing student reviews for a professor.
 
 Professor name:
 Geri  Olson
 
 Most worthwhile student reviews:
-She\'s an interesting professor. Really nice, maybe a little strange at times, but super down to earth. I like the type of work that we do. It\'s an interesting class, a lot of work with personal life stuff, but you don\'t necessarily need to share. Lots of creative writing stuff and you keep a dream journal. A few small projects too 
-
- AWFUL! all you will do is collage and talk about feelings with people you dont know. goodness. i will not ever take a class from her again. shes very unclear about assignments and will never give you a straight answer. STAY AWAY! 
+AWFUL! all you will do is collage and talk about feelings with people you dont know. goodness. i will not ever take a class from her again. shes very unclear about assignments and will never give you a straight answer. STAY AWAY! 
 
  I took her in the summer and i loved this class! she is such a great teacher. i had this class for 4 hours and she made it fly bye. she has a way of breaking up the class that makes it bearable. 
 
- I loved her energy! Personally, I loved using creativity in journaling. She was approachable and great!
+ She\'s an interesting professor. Really nice, maybe a little strange at times, but super down to earth. I like the type of work that we do. It\'s an interesting class, a lot of work with personal life stuff, but you don\'t necessarily need to share. Lots of creative writing stuff and you keep a dream journal. A few small projects too 
+
+ I will never take her again. In addition to the previous commenter\'s accurate complaints, she picks favorites, and if she doesn\'t like you - good luck!
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -418,14 +418,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Geri Olson offers an interesting and creative class that involves personal reflection, journaling, and small projects, with a focus on creative writing and dream journals. Many students appreciate her approachable and down-to-earth style, finding her energy engaging and the class format manageable, even during longer sessions. However, some students find her assignments unclear and feel she does not provide straightforward answers, which can lead to confusion and frustration. The course involves a significant amount of personal sharing and emotional discussion, which may not appeal to everyone. Overall, the class experience is mixed, with some students loving the creativity and atmosphere, while others strongly advise against taking her class due to organizational issues."
+Return only the final summary paragraph.","Professor Geri Olson’s classes involve a significant amount of creative and personal work, including dream journals and small projects, which some students find interesting and engaging. She is described as a great teacher by some, with a teaching style that makes long class sessions feel manageable and an approachable, down-to-earth demeanor. However, other students find her unclear about assignments, unorganized, and frustrating due to a lack of straightforward communication. There are also concerns about perceived favoritism and an uneven classroom experience. Overall, students’ experiences with Professor Olson vary widely, with some appreciating the creative and personal nature of the coursework, while others strongly advise against taking her class due to clarity and fairness issues.",-0.011795343827127547,0.14277768441685912,0.10660866967769245
 Michael  Milburn,"I took PSYCH 337 Comm. & Society w/ Prof. Milburn (online). The material he provides is very interesting and I really enjoyed the class. He is extremely responsive if you ask him anything which is great. The class is very straight-forward and what is expected of you is laid out clearly. The work load is fair, & if you do the work you will do well. 
+
+ He just doesn\'t know how to teach to a room of 100 kids. He relies completely on unclear, vague PowerPoints, and his lectures are totally centered around describing studies. It\'s very boring and misleadingly difficult. Also, the tests are built around memorization. This class discouraged me from pursuing a topic that I had been very interested in. 
 
  WORST PROFESSOR EVER, hes def. on my worst professor list. This guy has so checked out of teaching its not even funny, hes close to retirement and it shows. He didnt even correct our papers he had his grad student do it so in reality we werent even writing for him because the grad student wasnt even correcting by his guidelines! He\'s so boring. 
 
- He is a very good professor. All you need to do is do the assignments and make sure you turn it in on time. The exams were multiple choice and short essay. The essay questions are usually given out a week before the actual test. I think if you do all the work you should be fine. Excellent professor and very helpful. 
-
- He just doesn\'t know how to teach to a room of 100 kids. He relies completely on unclear, vague PowerPoints, and his lectures are totally centered around describing studies. It\'s very boring and misleadingly difficult. Also, the tests are built around memorization. This class discouraged me from pursuing a topic that I had been very interested in.","You are summarizing student reviews for a professor.
+ This professor needs to retire now! I took his PSYCH 330 class and it was horrible! Boring lectures, confusing material, and not helpful! The tests are really hard! He gives you the Q&A ahead of time but expects you to memorize 250 multiple choice questions and only chooses 50 of them for the actual test! DONT TAKE !","You are summarizing student reviews for a professor.
 
 Professor name:
 Michael  Milburn
@@ -433,17 +433,17 @@ Michael  Milburn
 Most worthwhile student reviews:
 I took PSYCH 337 Comm. & Society w/ Prof. Milburn (online). The material he provides is very interesting and I really enjoyed the class. He is extremely responsive if you ask him anything which is great. The class is very straight-forward and what is expected of you is laid out clearly. The work load is fair, & if you do the work you will do well. 
 
+ He just doesn\'t know how to teach to a room of 100 kids. He relies completely on unclear, vague PowerPoints, and his lectures are totally centered around describing studies. It\'s very boring and misleadingly difficult. Also, the tests are built around memorization. This class discouraged me from pursuing a topic that I had been very interested in. 
+
  WORST PROFESSOR EVER, hes def. on my worst professor list. This guy has so checked out of teaching its not even funny, hes close to retirement and it shows. He didnt even correct our papers he had his grad student do it so in reality we werent even writing for him because the grad student wasnt even correcting by his guidelines! He\'s so boring. 
 
- He is a very good professor. All you need to do is do the assignments and make sure you turn it in on time. The exams were multiple choice and short essay. The essay questions are usually given out a week before the actual test. I think if you do all the work you should be fine. Excellent professor and very helpful. 
-
- He just doesn\'t know how to teach to a room of 100 kids. He relies completely on unclear, vague PowerPoints, and his lectures are totally centered around describing studies. It\'s very boring and misleadingly difficult. Also, the tests are built around memorization. This class discouraged me from pursuing a topic that I had been very interested in.
+ This professor needs to retire now! I took his PSYCH 330 class and it was horrible! Boring lectures, confusing material, and not helpful! The tests are really hard! He gives you the Q&A ahead of time but expects you to memorize 250 multiple choice questions and only chooses 50 of them for the actual test! DONT TAKE !
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -460,14 +460,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Michael Milburn’s courses have a clear and straightforward structure with a fair workload, and students who complete assignments on time generally do well. He is described as responsive and helpful, providing exam essay questions in advance, which supports student success. However, some students find his teaching style boring and reliant on vague PowerPoints, with lectures focused heavily on describing studies rather than engaging the class. There are also concerns about grading consistency, as some papers are corrected by a graduate student rather than the professor himself. Overall, the class may suit students who prefer clear expectations and steady work but may be less appealing to those seeking dynamic or interactive lectures."
+Return only the final summary paragraph.","Professor Michael Milburn offers clear expectations and a fair workload, with interesting course material and responsiveness to student questions, especially in smaller or online settings. However, his lectures have been described as boring, relying heavily on vague PowerPoints and study descriptions, which some students find confusing and unengaging. Exams focus on memorization of a large number of multiple-choice questions, making them challenging despite advance access to study questions. Additionally, grading may be delegated to a graduate student, leading to concerns about consistency and feedback quality. Overall, students’ experiences vary widely, with some appreciating the straightforward structure and others strongly discouraged by the teaching style and difficulty.",-0.4146302222849396,-0.8126778772666984,0.12559661534068423
 C  Hampton,"Top 3 worst teachers I\'ve had at vol state, she is rude and reads from power points every class, all class. Accused me of plagerizing an opinionated paper like I was not capable of producing A material. WOULD NOT TAKE awful teacher. 
 
- I enjoyed her Hybrid Class very much. I think she made the discussions clear and easy to post. She enjoys humor, so apply what you are learning to something real life with a smile on it and you will get high marks. Participation = A 
+ She was very rude and demeaning to all of my work that I submitted. She doesn\'t really teach very well. DO NOT TAKE 
 
  I am taking her online class and she is very rude and does not explain anything.It seems like to me she hates her job and wants to take it out on her students. I do not recommend her at all!!!! 
 
- I liked her. As long as you study, take lotssss of notes and keep up with the dates you will do great in her class. She emails back fast too.","You are summarizing student reviews for a professor.
+ this woman is extremely rude and hateful. The first day I ever attended school at vol state, I was lost and sent to her to ask her where I should go for my art class. I knocked on her door, and she proceeded to rip the door open and tell me off in front of her class for interupting her lecture. I was mortified. She ruined my first day of college.","You are summarizing student reviews for a professor.
 
 Professor name:
 C  Hampton
@@ -475,17 +475,17 @@ C  Hampton
 Most worthwhile student reviews:
 Top 3 worst teachers I\'ve had at vol state, she is rude and reads from power points every class, all class. Accused me of plagerizing an opinionated paper like I was not capable of producing A material. WOULD NOT TAKE awful teacher. 
 
- I enjoyed her Hybrid Class very much. I think she made the discussions clear and easy to post. She enjoys humor, so apply what you are learning to something real life with a smile on it and you will get high marks. Participation = A 
+ She was very rude and demeaning to all of my work that I submitted. She doesn\'t really teach very well. DO NOT TAKE 
 
  I am taking her online class and she is very rude and does not explain anything.It seems like to me she hates her job and wants to take it out on her students. I do not recommend her at all!!!! 
 
- I liked her. As long as you study, take lotssss of notes and keep up with the dates you will do great in her class. She emails back fast too.
+ this woman is extremely rude and hateful. The first day I ever attended school at vol state, I was lost and sent to her to ask her where I should go for my art class. I knocked on her door, and she proceeded to rip the door open and tell me off in front of her class for interupting her lecture. I was mortified. She ruined my first day of college.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -502,14 +502,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor C Hampton receives mixed reviews from students. Some find her classes well-organized, especially in hybrid or online formats, appreciating clear discussions, timely email responses, and the emphasis on participation for good grades. However, several students describe her as rude and unhelpful, criticizing her for reading directly from PowerPoint slides and lacking clear explanations. There are also serious concerns about fairness, with one student reporting an unfounded plagiarism accusation. Overall, success in her class appears to require consistent note-taking, keeping up with deadlines, and active engagement, but the classroom experience may vary significantly depending on individual expectations."
+Return only the final summary paragraph.","Students consistently describe Professor C Hampton as rude and unhelpful, often reading directly from PowerPoint slides without providing clear explanations. Several reviews mention feeling demeaned or unfairly accused, with one student recounting a distressing encounter on their first day of college. The professor’s teaching style is characterized as disorganized and lacking engagement, leading to a frustrating classroom experience. There is no evidence of positive feedback regarding her teaching methods or classroom environment in the provided reviews. Overall, students strongly advise against taking her courses due to poor communication and a negative attitude.",-0.8177469447679371,-0.9630384322793291,-0.5899094737812516
 Roy  Nutter,"Horrible teacher. Avoid at all costs. Puts things on tests that he NEVER goes over in class. Doesn\'t give much partial credit. Doesn\'t really seem to have a point when he\'s teaching. Overall just a crappy teacher.. don\'t take him unless you absolutely have to. 
 
  Good professor. Not the best teacher, but he keeps the class is plenty entertaining and fairly easy. 
 
- Great professor.Likes to have ""Quiz time"" at the start of most classes.Most hw deals with topics from previous courses.Tests are really fair.He pretty much tells you what each question will be before hand.I would recommend you take him for any and all classes possible. 
+ Roy Nutter is the most unfair professer i have ever had. He takes off points on some tests and not on others. Avoid him if possible. When i went to him to talk about my test grade he laughed at me and made me even more angrier. 
 
- Good professor. Lectures are interesting, makes the class fun to attend. Likes giving pop-quizzes, homework is easy points, takes attendance. Harsh grader on exams, be as precise and clear with answers as possible or he wont give credit.","You are summarizing student reviews for a professor.
+ Great professor.Likes to have ""Quiz time"" at the start of most classes.Most hw deals with topics from previous courses.Tests are really fair.He pretty much tells you what each question will be before hand.I would recommend you take him for any and all classes possible.","You are summarizing student reviews for a professor.
 
 Professor name:
 Roy  Nutter
@@ -519,15 +519,15 @@ Horrible teacher. Avoid at all costs. Puts things on tests that he NEVER goes ov
 
  Good professor. Not the best teacher, but he keeps the class is plenty entertaining and fairly easy. 
 
- Great professor.Likes to have ""Quiz time"" at the start of most classes.Most hw deals with topics from previous courses.Tests are really fair.He pretty much tells you what each question will be before hand.I would recommend you take him for any and all classes possible. 
+ Roy Nutter is the most unfair professer i have ever had. He takes off points on some tests and not on others. Avoid him if possible. When i went to him to talk about my test grade he laughed at me and made me even more angrier. 
 
- Good professor. Lectures are interesting, makes the class fun to attend. Likes giving pop-quizzes, homework is easy points, takes attendance. Harsh grader on exams, be as precise and clear with answers as possible or he wont give credit.
+ Great professor.Likes to have ""Quiz time"" at the start of most classes.Most hw deals with topics from previous courses.Tests are really fair.He pretty much tells you what each question will be before hand.I would recommend you take him for any and all classes possible.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -544,14 +544,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Roy Nutter receives mixed reviews from students. Some find his lectures interesting and entertaining, appreciating his use of quizzes and homework that often cover familiar material, which can make the class fairly easy and fun to attend. However, others criticize him for including test questions on topics not covered in class and for being a harsh grader who offers little partial credit, requiring precise and clear answers. While he may keep the class engaging, some students feel his teaching lacks clear organization and purpose. Overall, students recommend taking him only if necessary, as experiences with his fairness and clarity vary significantly."
+Return only the final summary paragraph.","Professor Roy Nutter receives mixed reviews from students. Some find his classes entertaining and fairly easy, with quizzes at the start of most sessions and homework that builds on previous courses. He is noted for giving fair tests and often indicating what questions will appear. However, others describe him as an unfair and unorganized teacher who includes material on exams that was never covered in class and is inconsistent with partial credit. Additionally, some students report negative interactions when discussing grades. Overall, students recommend avoiding him unless necessary, though a few find his teaching manageable and somewhat engaging.",0.0037951227197953463,-0.18761353096262945,0.07004090348142933
 Elizabeth  Salter,"Just be sure to pay attention and actually study for the tests & the class will be pretty easy. Don\'t fret over the 10 page essays because you\'ll get a good grade as long as you include all that she asks for in the rubric. Nothing too difficult. She\'s a great professor, knowledgeable, very nice, & pretty funny. 
 
  This class has probably been one of the worst I have taken since coming to UTD. Unless you REALLY like lectures that will put you to sleep and primates...stay away!!! She grades very hard and the lectures seemed very disorganized and unrelated to required readings. 
 
- I took Human Female and BBD. It was somewhat interesting and the information would probably be helpful to most. There were three ten page research papers due in HF and 2 in BBD;she expects you to follow the rubrics VERY CLOSELY. The tests are are challenging and consist of labeling, fill in the blanks, and multiple choice. My best advice is to stud 
+ If this was not my last semester, I would have dropped this class from day 1. Awful - lectures are dull, slides are a mess, tests do not match what she says to study for, uses obscure things from the book never addressed during class. If you can get around taking this class and this professor, do so. 
 
- Tests were easy for someone with science background and study slides. Hard if you do not pay attention. Stickler on class etiquette. You will get a good grade on the papers if you include everything she requires (she gives you a rubic). Wants to be able to read the paper without trying to figure out what you are trying to say.","You are summarizing student reviews for a professor.
+ She is a very nice professor as long as you have good classroom etiquette. A lot of information is covered; you must read and study well. Expectations are clear and she will help you if you asked. There are two 10 page papers, the second one is fun\xe2\x80\xa6you create your own short mystery novel.","You are summarizing student reviews for a professor.
 
 Professor name:
 Elizabeth  Salter
@@ -561,15 +561,15 @@ Just be sure to pay attention and actually study for the tests & the class will 
 
  This class has probably been one of the worst I have taken since coming to UTD. Unless you REALLY like lectures that will put you to sleep and primates...stay away!!! She grades very hard and the lectures seemed very disorganized and unrelated to required readings. 
 
- I took Human Female and BBD. It was somewhat interesting and the information would probably be helpful to most. There were three ten page research papers due in HF and 2 in BBD;she expects you to follow the rubrics VERY CLOSELY. The tests are are challenging and consist of labeling, fill in the blanks, and multiple choice. My best advice is to stud 
+ If this was not my last semester, I would have dropped this class from day 1. Awful - lectures are dull, slides are a mess, tests do not match what she says to study for, uses obscure things from the book never addressed during class. If you can get around taking this class and this professor, do so. 
 
- Tests were easy for someone with science background and study slides. Hard if you do not pay attention. Stickler on class etiquette. You will get a good grade on the papers if you include everything she requires (she gives you a rubic). Wants to be able to read the paper without trying to figure out what you are trying to say.
+ She is a very nice professor as long as you have good classroom etiquette. A lot of information is covered; you must read and study well. Expectations are clear and she will help you if you asked. There are two 10 page papers, the second one is fun\xe2\x80\xa6you create your own short mystery novel.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -586,32 +586,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Elizabeth Salter is knowledgeable and generally considered a great and nice instructor who provides clear rubrics for assignments, making it easier to earn good grades on papers if all requirements are met. The workload includes multiple lengthy research papers and challenging tests that require careful study, especially for those without a strong science background. However, some students find her grading to be strict and her lectures disorganized, with content that can feel unrelated to the readings and occasionally boring. Attention to class etiquette is important, and students are advised to pay close attention in class to succeed. Overall, the course experience can vary significantly depending on a student’s interest in the material and study habits."
-Marc  Stern,"Stern is an amazing lecturer. He seems to know everything about U.S. history. You\'ll think you\'re failing his course the entire time, but if you try hard and do the work, you\'ll do fine. You end up learning A LOT because of the essay format of the exams (he gives a list of possible essays ahead of time). Great guy, but expects a lot from students. 
+Return only the final summary paragraph.","Professor Elizabeth Salter is described as knowledgeable, nice, and willing to help students who ask, with clear expectations and a manageable workload if students pay attention and study. The class includes two 10-page papers, one of which is noted as enjoyable, and students can earn good grades by following the rubric closely. However, several students found the lectures dull, disorganized, and not well aligned with the required readings or test material, leading to frustration. Grading is perceived as hard by some, and the overall classroom experience may be challenging for those who do not engage actively or prefer more structured lectures.",-0.04153200422848022,0.12631105661734554,0.49827247649225304
+Marc  Stern,"I was not interested in history, however Professor Stern was a really great teacher and kept your attention, I will definitely take one of his classes again. 
 
- I was not interested in history, however Professor Stern was a really great teacher and kept your attention, I will definitely take one of his classes again. 
+ Terrible teacher. I expected better from the head of the department, but every class he decides to display his knowledge about the topic and branch off to random topics. After all that he expects you to know what he meant to talk about. Also a mean guy in general. Very inconsiderate when a student was very sick and needed to switch final time. 
 
- Nice guy but a tough teacher. All classes are straight lecture so be ready to take notes. For tests he gives you 40 terms and 5 essays, he picks a portion of them on test day. I had to work hard for a 3.3 and I have a solid background in APUSH. take it only if you\'re very serious. Even then, take with caution. 
+ Stern is an amazing lecturer. He seems to know everything about U.S. history. You\'ll think you\'re failing his course the entire time, but if you try hard and do the work, you\'ll do fine. You end up learning A LOT because of the essay format of the exams (he gives a list of possible essays ahead of time). Great guy, but expects a lot from students. 
 
- Head of history department. As with almost any elective at Bentley, he takes the classes too seriously and the tests are graded toughly. That being said he does give you the list of terms and essay topics for the midterm and final a week in advance, so that helps. Overall meh, wouldn\'t take again but a super nice guy who cares a lot.","You are summarizing student reviews for a professor.
+ DONT TAKE THIS PROFRESSOR. HE JUST READS FROM THE POWERPOINT AND HIS TESTS ARE VERY HARD!!!!","You are summarizing student reviews for a professor.
 
 Professor name:
 Marc  Stern
 
 Most worthwhile student reviews:
-Stern is an amazing lecturer. He seems to know everything about U.S. history. You\'ll think you\'re failing his course the entire time, but if you try hard and do the work, you\'ll do fine. You end up learning A LOT because of the essay format of the exams (he gives a list of possible essays ahead of time). Great guy, but expects a lot from students. 
+I was not interested in history, however Professor Stern was a really great teacher and kept your attention, I will definitely take one of his classes again. 
 
- I was not interested in history, however Professor Stern was a really great teacher and kept your attention, I will definitely take one of his classes again. 
+ Terrible teacher. I expected better from the head of the department, but every class he decides to display his knowledge about the topic and branch off to random topics. After all that he expects you to know what he meant to talk about. Also a mean guy in general. Very inconsiderate when a student was very sick and needed to switch final time. 
 
- Nice guy but a tough teacher. All classes are straight lecture so be ready to take notes. For tests he gives you 40 terms and 5 essays, he picks a portion of them on test day. I had to work hard for a 3.3 and I have a solid background in APUSH. take it only if you\'re very serious. Even then, take with caution. 
+ Stern is an amazing lecturer. He seems to know everything about U.S. history. You\'ll think you\'re failing his course the entire time, but if you try hard and do the work, you\'ll do fine. You end up learning A LOT because of the essay format of the exams (he gives a list of possible essays ahead of time). Great guy, but expects a lot from students. 
 
- Head of history department. As with almost any elective at Bentley, he takes the classes too seriously and the tests are graded toughly. That being said he does give you the list of terms and essay topics for the midterm and final a week in advance, so that helps. Overall meh, wouldn\'t take again but a super nice guy who cares a lot.
+ DONT TAKE THIS PROFRESSOR. HE JUST READS FROM THE POWERPOINT AND HIS TESTS ARE VERY HARD!!!!
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -628,14 +628,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Marc Stern is a knowledgeable and engaging U.S. history lecturer who keeps students’ attention despite the course’s challenging nature. His classes are primarily straight lectures requiring diligent note-taking, and exams consist of essay questions and terms selected from a list provided a week in advance, which helps students prepare. Stern expects a lot from his students, and grading can be tough, so the course demands serious effort even from those with a strong background. While some students find the workload and grading rigorous, many appreciate his fairness, dedication, and the significant amount of learning that results from his teaching style. Overall, he is described as a nice and caring instructor, though the course may not be suitable for those looking for an easy or casual history class."
+Return only the final summary paragraph.","Professor Marc Stern is knowledgeable about U.S. history and can keep students’ attention, even those initially uninterested in the subject. His lectures sometimes branch off into unrelated topics, which some students find confusing, and he reads directly from PowerPoint slides. The course workload and exams, which are essay-based with topics provided in advance, are challenging, and students must work hard to succeed. While some appreciate his thoroughness and find him a great teacher, others describe him as inconsiderate and difficult, particularly regarding flexibility with exam scheduling. Overall, students should expect a demanding class with a mix of engaging content and organizational challenges.",0.0613555321578306,0.5561197623665666,0.5729063336361988
 Doug  Zentz,"Great teacher, he really knows what he is talking about. He cares about his students success and their future. He just wants everyone to leave the HVAC program knowing what they need to know. 
+
+ Subjective and opinionated. Not a good teacher. If every student in the whole program gets a terrible score on a lab assignment, do you think it may have something to do with the clarity of the instructions? NEVER admits when he is wrong, and he enjoys messing with your future by lowering your GPA. Hopefully you have a different teacher for 362. 
 
  He is a horrible grader. He hates to give out A\'s in anything. He will purposefully mark you off big points for little problems in your assignments. If you ask him questions he will get mad and start yelling. On the plus side he seems to know the information. 
 
- Easy grader but lots of notes and gives too much information 
-
- This professor is very unprofessional. He responds to every question as if the student is questioning his intelligence. Enjoys talking down to students. Uses the term ""creativity"" as a grading parameter to take points away for no apparent reason. He also likes to use double negative statements on exams to purposefully confuse students.","You are summarizing student reviews for a professor.
+ Very knowledgeable but it seems like he doesn\'t care too much about students success. He pics favorites in class so its helpful to be part of Ashrae and other student groups. Not very approachable, if you don\'t understand something and ask a question he will sometimes talk down to you. Watch for his BPM (blinks per minute).","You are summarizing student reviews for a professor.
 
 Professor name:
 Doug  Zentz
@@ -643,17 +643,17 @@ Doug  Zentz
 Most worthwhile student reviews:
 Great teacher, he really knows what he is talking about. He cares about his students success and their future. He just wants everyone to leave the HVAC program knowing what they need to know. 
 
+ Subjective and opinionated. Not a good teacher. If every student in the whole program gets a terrible score on a lab assignment, do you think it may have something to do with the clarity of the instructions? NEVER admits when he is wrong, and he enjoys messing with your future by lowering your GPA. Hopefully you have a different teacher for 362. 
+
  He is a horrible grader. He hates to give out A\'s in anything. He will purposefully mark you off big points for little problems in your assignments. If you ask him questions he will get mad and start yelling. On the plus side he seems to know the information. 
 
- Easy grader but lots of notes and gives too much information 
-
- This professor is very unprofessional. He responds to every question as if the student is questioning his intelligence. Enjoys talking down to students. Uses the term ""creativity"" as a grading parameter to take points away for no apparent reason. He also likes to use double negative statements on exams to purposefully confuse students.
+ Very knowledgeable but it seems like he doesn\'t care too much about students success. He pics favorites in class so its helpful to be part of Ashrae and other student groups. Not very approachable, if you don\'t understand something and ask a question he will sometimes talk down to you. Watch for his BPM (blinks per minute).
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -670,14 +670,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Doug Zentz is knowledgeable and clearly cares about students’ success in the HVAC program, aiming for them to leave well-prepared. However, his grading is notably harsh and inconsistent, often deducting significant points for minor issues and using subjective criteria like ""creativity"" to take points away. Some students find his communication style unprofessional and intimidating, as he may respond to questions with frustration or condescension. Additionally, his exams can be confusing due to the use of double negatives. While he provides a lot of information, the overall classroom experience may be challenging due to these grading and interaction concerns."
+Return only the final summary paragraph.","Professor Doug Zentz is very knowledgeable about HVAC and genuinely wants students to leave the program well-prepared. However, his teaching style is often described as unclear and subjective, with some students finding his instructions confusing and his grading harsh and unfair, as he tends to deduct significant points for minor issues. He is not very approachable and can respond negatively or even angrily when asked questions, which may hinder student understanding and success. Additionally, some students feel he shows favoritism toward certain groups, making it beneficial to be involved in student organizations. Overall, while he knows the material well, his classroom experience can be challenging due to his grading practices and communication style.",-0.27383305463705965,-0.391900050009932,-0.5583180901637452
 Mary  Curtner Smith,"Avoid at all cost. She lectures the entire class time and the majority of what she says isn\'t even what will be on the test. She talks more about her personal life and personal opinions than the material that we actually need to know. Her test are tough and without the book you will have no idea what is going on. This class is miserable. 
+
+ Very hard and boring!I dread going to this class every single day. It takes her a week to post grades. And all the tests are scantron. Do not take this class if you don\'t have to. The class is miserable and I don\'t know anyone who likes going to it. She always goes off subject, and keeps you the full time. AWFUL CLASS AND AWFUL TEACHER. 
 
  My favorite class with my favorite professor. I like her teaching style. She tells lots of funny stories that relate to the class, and she really cares about her students. 
 
- I had Dr. Curtner-Smith for 480 and now for 483. She is very nice and helpful but her classes are extremely time consuming. They should definitely count more than 3 credit hours! She knows her stuff though and you will definitely learn from her. 
-
- I really enjoyed her class. She knows what she is talking about. I did not take any tests in her class. It was all based on papers/chapter summaries. Basically put in some effort and go to class. I definitely think she will help the student if she knows them and they show effort.","You are summarizing student reviews for a professor.
+ I dread going to this class. Ms Curtner Smith is an annoying communicator by the way she stutters through statements and says ""Um"" alot. She tends to teach more towards those with Psychology backgrounds- if you do not have one then you probably wont know what she is talking about and she doesn\'t explain it either. Very boring teacher do not take!","You are summarizing student reviews for a professor.
 
 Professor name:
 Mary  Curtner Smith
@@ -685,17 +685,17 @@ Mary  Curtner Smith
 Most worthwhile student reviews:
 Avoid at all cost. She lectures the entire class time and the majority of what she says isn\'t even what will be on the test. She talks more about her personal life and personal opinions than the material that we actually need to know. Her test are tough and without the book you will have no idea what is going on. This class is miserable. 
 
+ Very hard and boring!I dread going to this class every single day. It takes her a week to post grades. And all the tests are scantron. Do not take this class if you don\'t have to. The class is miserable and I don\'t know anyone who likes going to it. She always goes off subject, and keeps you the full time. AWFUL CLASS AND AWFUL TEACHER. 
+
  My favorite class with my favorite professor. I like her teaching style. She tells lots of funny stories that relate to the class, and she really cares about her students. 
 
- I had Dr. Curtner-Smith for 480 and now for 483. She is very nice and helpful but her classes are extremely time consuming. They should definitely count more than 3 credit hours! She knows her stuff though and you will definitely learn from her. 
-
- I really enjoyed her class. She knows what she is talking about. I did not take any tests in her class. It was all based on papers/chapter summaries. Basically put in some effort and go to class. I definitely think she will help the student if she knows them and they show effort.
+ I dread going to this class. Ms Curtner Smith is an annoying communicator by the way she stutters through statements and says ""Um"" alot. She tends to teach more towards those with Psychology backgrounds- if you do not have one then you probably wont know what she is talking about and she doesn\'t explain it either. Very boring teacher do not take!
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -712,14 +712,14 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Mary Curtner Smith is knowledgeable and clearly cares about her students, often sharing funny stories that relate to the material, which some students find engaging and helpful. However, her classes can be extremely time-consuming, with a workload that some feel should warrant more credit hours. Exams tend to be challenging and may not align closely with lecture content, which often includes personal opinions and stories rather than test-relevant material. Grading is based more on papers and chapter summaries than tests in some courses, and students who show effort and attend class are likely to receive support. Overall, experiences vary widely, with some students loving her teaching style while others find the class frustrating and difficult to follow."
+Return only the final summary paragraph.","Professor Mary Curtner Smith receives mixed reviews from students. Some find her teaching style engaging and appreciate her use of funny stories and personal care for students, describing the class as their favorite. However, many students criticize her lectures as boring and unfocused, often going off-topic and spending class time on personal opinions rather than test-relevant material. Tests are described as difficult and primarily scantron-based, with grades posted slowly, and students without a psychology background may struggle to understand the content due to a lack of clear explanations. Overall, the class experience is described by many as miserable and hard to follow, though a few students find her approach enjoyable.",-0.3916533839126357,-0.7944266406052987,-0.3748581457163245
 Gerald  McCausland,"You have to have interest in the subject with Jerry. If you don\'t do your work he will get on your case. If you do what you have to do you\'ll be fine. Also a funny guy and loves if you show a passion for your work. 
 
  He was a great professor. He definitely knows what he\'s doing. Like everyone else says, he can be harsh but its definitely well deserved. If you do what you\'re supposed to and just make an attempt to participate you\'ll find that you have no problems with him. Overall, his class is extremely amusing and he may just be my favorite professor. 
 
- Gerry\'s a little strange (he barked at us the first day..) but a really good teacher and he is very good at explaining concepts in ways that American students will understand. Oral exams are really hard and you\'re expected to know a lot of vocab, but the chapter tests are really simple. Just do the hw and be prepared for class and you will do fine. 
+ horrible teacher, run run run. doesn\'t have all his marbles 
 
- Jerry\'s classes are tough. He expects a LOT from his students, but is very knowledgeable about all things Russian. He gives you all you need to know in lecture so take a lot of notes & do the readings to participate (25% of your grade). Tests are a crap shoot of what will be there, but if you attend class, take good notes, & study you can do well.","You are summarizing student reviews for a professor.
+ Gerry is mean, demanding, unhelpful and ridiculously hard for an entry level course. Try to avoid him if you can.","You are summarizing student reviews for a professor.
 
 Professor name:
 Gerald  McCausland
@@ -729,15 +729,15 @@ You have to have interest in the subject with Jerry. If you don\'t do your work 
 
  He was a great professor. He definitely knows what he\'s doing. Like everyone else says, he can be harsh but its definitely well deserved. If you do what you\'re supposed to and just make an attempt to participate you\'ll find that you have no problems with him. Overall, his class is extremely amusing and he may just be my favorite professor. 
 
- Gerry\'s a little strange (he barked at us the first day..) but a really good teacher and he is very good at explaining concepts in ways that American students will understand. Oral exams are really hard and you\'re expected to know a lot of vocab, but the chapter tests are really simple. Just do the hw and be prepared for class and you will do fine. 
+ horrible teacher, run run run. doesn\'t have all his marbles 
 
- Jerry\'s classes are tough. He expects a LOT from his students, but is very knowledgeable about all things Russian. He gives you all you need to know in lecture so take a lot of notes & do the readings to participate (25% of your grade). Tests are a crap shoot of what will be there, but if you attend class, take good notes, & study you can do well.
+ Gerry is mean, demanding, unhelpful and ridiculously hard for an entry level course. Try to avoid him if you can.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -754,12 +754,12 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Gerald McCausland is a knowledgeable and engaging instructor who expects a lot from his students, particularly in terms of participation, homework, and preparation for class. His lectures provide the necessary material, but students must take thorough notes and complete readings to succeed, as participation counts significantly toward the grade. While tests can be unpredictable, consistent attendance and study generally lead to good results. The class is challenging, especially the oral exams which require strong vocabulary knowledge, but the chapter tests tend to be simpler. Despite a somewhat unconventional teaching style, he is considered a great teacher who appreciates passion and effort, and many students find his classes amusing and rewarding if they stay on top of the work."
-James  Cawley,"James is a really nice guy who really likes tables. That said he is a decent prof, class attendance definitely isn\'t mandatory, and he teaches almost straight from the book and is very clear about what will be on exams. He had some cute in class experiments too. All around definitely a good engr 225 prof. 
+Return only the final summary paragraph.","Professor Gerald McCausland is knowledgeable and can be an engaging and funny instructor, especially appreciated by students who show passion and put effort into the coursework. He is known to be demanding and can be harsh, but this is generally seen as well deserved when students do not meet expectations. His class may be challenging, particularly for entry-level students, and some find him unhelpful or difficult to work with. Overall, students who stay on top of their work and participate tend to have a positive experience, while those who do not may find the course frustrating.",-0.03556219760448037,0.05344071018138852,0.4878327794344972
+James  Cawley,"Cawley is a really good professor that knows the material inside and out. He is always available, and very understanding of students. The exams are not easy, but that doesnt mean it is impossible to get an A. Know concepts, not formulas, read the book, and pay attention to his in-class examples. Go talk to him too during office hours! 
+
+ James is a really nice guy who really likes tables. That said he is a decent prof, class attendance definitely isn\'t mandatory, and he teaches almost straight from the book and is very clear about what will be on exams. He had some cute in class experiments too. All around definitely a good engr 225 prof. 
 
  Honestly, Professor Cawley is a really great professor. However, in SAGES the prompts for his papers can be a bit unclear and the grading criteria aren\'t exactly made clear. 
-
- Excellent advisor. Mediocre teacher. 
 
  By far my favorite Case professor. Very prone to tangents relating concepts to real-life problems. When he first starts explaining a concept, it seems a little circuitous, but when he finishes his derivations it\'s crystal clear what he was going for. Absolutely brilliant, and always loves talking to students in his spare time.","You are summarizing student reviews for a professor.
 
@@ -767,19 +767,19 @@ Professor name:
 James  Cawley
 
 Most worthwhile student reviews:
-James is a really nice guy who really likes tables. That said he is a decent prof, class attendance definitely isn\'t mandatory, and he teaches almost straight from the book and is very clear about what will be on exams. He had some cute in class experiments too. All around definitely a good engr 225 prof. 
+Cawley is a really good professor that knows the material inside and out. He is always available, and very understanding of students. The exams are not easy, but that doesnt mean it is impossible to get an A. Know concepts, not formulas, read the book, and pay attention to his in-class examples. Go talk to him too during office hours! 
+
+ James is a really nice guy who really likes tables. That said he is a decent prof, class attendance definitely isn\'t mandatory, and he teaches almost straight from the book and is very clear about what will be on exams. He had some cute in class experiments too. All around definitely a good engr 225 prof. 
 
  Honestly, Professor Cawley is a really great professor. However, in SAGES the prompts for his papers can be a bit unclear and the grading criteria aren\'t exactly made clear. 
-
- Excellent advisor. Mediocre teacher. 
 
  By far my favorite Case professor. Very prone to tangents relating concepts to real-life problems. When he first starts explaining a concept, it seems a little circuitous, but when he finishes his derivations it\'s crystal clear what he was going for. Absolutely brilliant, and always loves talking to students in his spare time.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -796,32 +796,32 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor James Cawley is generally regarded as a clear and fair instructor who teaches primarily from the textbook and is transparent about exam content, making his classes manageable without mandatory attendance. He is praised for his engaging teaching style, often relating concepts to real-life problems and using in-class experiments, which helps clarify complex material despite occasional circuitous explanations. Students appreciate his approachability and willingness to discuss topics outside of class, as well as his excellence as an advisor. However, some find the prompts and grading criteria for his SAGES papers unclear, which can cause confusion. Overall, he is considered a good professor with strengths in clarity and student interaction, though some aspects of assignment expectations could be improved."
-Jerry  Scripps,"I took Scripps for Comp Sci 162. He certainly knew what he was doing when it came to programming and he usually was able to get the information across. No real tests during the class other than midterm and final. He uses a flipped classroom so be sure to watch the videos before class. Good, not great teacher. Would take him again though. 
+Return only the final summary paragraph.","Professor James Cawley is a knowledgeable and approachable instructor who clearly knows his material and is willing to engage with students outside of class. His lectures are clear and often include relatable real-life examples, though his explanations may initially seem indirect before becoming crystal clear. Exams are challenging but fair, focusing on understanding concepts rather than memorizing formulas, and he is transparent about exam content. Attendance is not mandatory, and he tends to teach directly from the textbook, supplemented by in-class experiments. Some students find the prompts and grading criteria for his SAGES papers unclear, which may cause confusion. Overall, he is regarded as a great professor who cares about student learning and is easy to talk to.",0.5694270280708119,0.8675711940305002,0.8148556991769009
+Jerry  Scripps,"He is a great guy, extremely helpful, and actually makes class fun. 
 
- He is a great guy, extremely helpful, and actually makes class fun. 
+ This class itself can be difficult especially if you have no prior experience in programming, but all around scripps is a excellent professor. He makes the class fun and he is really laid back. 
 
- I had this course a while ago, He is a great guy but expect to work a a lot...I had a little bit of programming experience before and still had some difficulty. Now, 2 years later, I am good at Java I can see how this class could be a blast. I didn\'t really feel like I learned from him until the END of the semester though. 
+ Jerry is a funny teacher and very easy to get along and work with. 
 
- Jerry is a funny teacher and very easy to get along and work with.","You are summarizing student reviews for a professor.
+ I took Scripps for Comp Sci 162. He certainly knew what he was doing when it came to programming and he usually was able to get the information across. No real tests during the class other than midterm and final. He uses a flipped classroom so be sure to watch the videos before class. Good, not great teacher. Would take him again though.","You are summarizing student reviews for a professor.
 
 Professor name:
 Jerry  Scripps
 
 Most worthwhile student reviews:
-I took Scripps for Comp Sci 162. He certainly knew what he was doing when it came to programming and he usually was able to get the information across. No real tests during the class other than midterm and final. He uses a flipped classroom so be sure to watch the videos before class. Good, not great teacher. Would take him again though. 
+He is a great guy, extremely helpful, and actually makes class fun. 
 
- He is a great guy, extremely helpful, and actually makes class fun. 
+ This class itself can be difficult especially if you have no prior experience in programming, but all around scripps is a excellent professor. He makes the class fun and he is really laid back. 
 
- I had this course a while ago, He is a great guy but expect to work a a lot...I had a little bit of programming experience before and still had some difficulty. Now, 2 years later, I am good at Java I can see how this class could be a blast. I didn\'t really feel like I learned from him until the END of the semester though. 
+ Jerry is a funny teacher and very easy to get along and work with. 
 
- Jerry is a funny teacher and very easy to get along and work with.
+ I took Scripps for Comp Sci 162. He certainly knew what he was doing when it came to programming and he usually was able to get the information across. No real tests during the class other than midterm and final. He uses a flipped classroom so be sure to watch the videos before class. Good, not great teacher. Would take him again though.
 
 Top positive sentiment words from the dataset:
-great, best, awesome, easy, love, amazing, fair, excellent, loved, funny, great teacher, really, wonderful, interesting, cool, fun, good teacher, nice, lot, willing
+great, awesome, best, easy, wonderful, loved, amazing, fun, fair, love, funny, excellent, dr, interesting, willing, cares, cool, great teacher, really, favorite
 
 Top negative sentiment words from the dataset:
-away, saying, terrible, late, talks, awful, worst teacher, wrong, unhelpful, confused, confusing, boring, unclear, hard understand, rude, teach, doesn, avoid, horrible, worst
+unless, completely, worst teacher, thinks, arrogant, useless, hard understand, did, unorganized, boring, teach, terrible, awful, confusing, unclear, rude, doesn, horrible, avoid, worst
 
 Task:
 Write a concise summary of the most impactful things a student should know about this professor.
@@ -838,4 +838,4 @@ Instructions:
 - Write 4-6 sentences in a neutral, informative style.
 
 Output:
-Return only the final summary paragraph.","Professor Jerry Scripps is knowledgeable in programming and uses a flipped classroom approach, requiring students to watch videos before class. He is described as a great, funny, and approachable teacher who makes class enjoyable and is very helpful. The course workload can be demanding, and some students may find the material challenging, especially early on, with learning becoming clearer toward the end of the semester. Assessments mainly consist of a midterm and final exam, with no frequent tests during the term. Overall, students find him a good teacher worth taking again, though not necessarily outstanding."
+Return only the final summary paragraph.","Professor Jerry Scripps is described as a laid-back and funny instructor who makes class enjoyable and is easy to work with. He is knowledgeable in programming and generally effective at conveying information, using a flipped classroom model that requires students to watch videos before class. The course can be challenging, especially for those without prior programming experience, but Scripps is considered helpful and fair. Assessments mainly consist of a midterm and final, with no frequent tests during the term. Overall, students find him to be a good, though not exceptional, teacher and would take his class again.",0.7743657633404091,0.96397216353981,0.7140716337640216
