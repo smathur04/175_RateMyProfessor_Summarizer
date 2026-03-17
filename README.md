@@ -11,3 +11,5 @@ matplotlib
 seaborn
 transformers
 openai
+
+**InitialExpirement.ipynb in the src folder wont open in github web view so please download or clone to view it!!!
